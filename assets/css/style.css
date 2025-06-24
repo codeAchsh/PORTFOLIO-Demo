@@ -1,0 +1,680 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.resume-sheet{
+    width: 100%;
+    height: 1800px;
+    background-color: #8A9A9A;
+    position: relative;
+}
+/* INTRODUCTION */
+.introduction-wrapper{
+    width: 90%;
+    height: 25%;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.introduction-wrapper img{
+    width: 80%;
+    height: 80%;
+    margin: 2em auto auto -20px;
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.header{
+    width: 70%;
+    height: 20%;
+    background-color: #A0C1B8;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+.about-me h1{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    font-size: 40px;
+    color: #A0C1B8;
+    font-family: "Montserrat", sans-serif;
+}
+.about-me p{
+    position: absolute;
+    top: 48%;
+    left: 35%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #666666;
+}
+.about-me a{
+    width: 50%;
+    position: absolute;
+    top: 62%;
+    left: 35%;
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+    text-align: left;
+    color: #666666;
+}
+.line-1{
+    width: 90%;
+    border: none;
+    height: 2px;
+    background-color: #c1c1c1;
+    position: absolute;
+    bottom: .5em;
+    left: 5%;
+}
+/* DETAIL */
+.detail-wrapper{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.detail-1{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+/* CONTACT ME */
+.contact-me h2{
+    color: #A0C1B8;
+    position: absolute;
+    top: 1em;
+    left: 5%;
+}
+.contact-me .line-2{
+    width: 25%;
+    border: none;
+    height: 2px;
+    background-color: #c1c1c1;
+    position: absolute;
+    top: 4em;
+    left: 5%;
+}
+.contact-me .add{
+    color: #666666;
+    position: absolute;
+    top: 5em;
+    left: 5%;
+}
+.contact-me .tel{
+    color: #666666;
+    position: absolute;
+    top: 10em;
+    left: 5%;
+}
+.contact-me .email{
+    color: #666666;
+    position: absolute;
+    top: 12em;
+    left: 5%;
+}
+/* EDUCATION */
+.education h2{
+    color: #A0C1B8;
+    position: absolute;
+    top: 12em;
+    left: 5%;
+}
+.education .line-2{
+    width: 25%;
+    border: none;
+    height: 2px;
+    background-color: #c1c1c1;
+    position: absolute;
+    top: 21em;
+    left: 5%;
+}
+.education .h-school{
+    font-size: 20px;
+    font-weight: 600;
+    color: #A0C1B8;
+    position: absolute;
+    top: 18em;
+    left: 5%;
+}
+.education .h-name{
+    color: #666666;
+    position: absolute;
+    top: 24.5em;
+    left: 5%;
+}
+.education .uni{
+    font-size: 20px;
+    font-weight: 600;
+    color: #A0C1B8;
+    position: absolute;
+    top: 23em;
+    left: 5%;
+}
+.education .u-name{
+    color: #666666;
+    position: absolute;
+    top: 31em;
+    left: 5%;
+}
+.detail-2{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+/* EXPERIENCE */
+.detail-2 h2{
+    color: #A0C1B8;
+    position: absolute;
+    top: 1em;
+    left: 45%;
+}
+.detail-2 .line-3{
+    width: 45%;
+    border: none;
+    height: 2px;
+    background-color: #c1c1c1;
+    position: absolute;
+    top: 4em;
+    left: 45%;
+}
+.experience-1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #A0C1B8;
+    position: absolute;
+    top: 4em;
+    left: 45%;
+}
+.task-1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+    position: absolute;
+    top: 6em;
+    left: 45%;
+}
+.ability-1{
+    width: 40%;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    color: #666666;
+    position: absolute;
+    top: 10.5em;
+    left: 50%;
+}
+.experience-2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #A0C1B8;
+    position: absolute;
+    top: 13em;
+    left: 45%;
+}
+.task-2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+    position: absolute;
+    top: 16em;
+    left: 45%;
+}
+.ability-2{
+    width: 40%;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    color: #666666;
+    position: absolute;
+    top: 24em;
+    left: 50%;
+}
+.experience-3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #A0C1B8;
+    position: absolute;
+    top: 24em;
+    left: 45%;
+}
+.task-3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+    position: absolute;
+    top: 28em;
+    left: 45%;
+}
+.ability-3{
+    width: 40%;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    color: #666666;
+    position: absolute;
+    top: 34em;
+    left: 50%;
+}
+/* SKILLS */
+.skills-wrapper{
+    width: 90%;
+    height: 22%;
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.skills-wrapper h2{
+    color: #A0C1B8;
+    position: absolute;
+    top: 1em;
+    left: 5%;
+}
+.skills-wrapper .line-1{
+    bottom: 20em;
+}
+.container {
+    max-width: 1000px;
+    height: 60%;
+    margin: 8em auto;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-category {
+    width: 400px;
+    padding: 1em 1.5em;
+    position: relative;
+}
+.skill-category h3 {
+    color: #A0C1B8;
+    text-align: left;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+}
+.skill {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 10px;
+}
+.skill-name {
+    width: 60%;
+    text-align: left;
+}
+.skill-bar {
+    width: 50%;
+    flex-grow: 1;
+    height: 20px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+}
+.skill-level {
+    height: 100%;
+    background-color: #76c7c0;
+}
+/* FOOTER */
+.footer{
+    width: 90%;
+    height: 4em;
+    position: absolute;
+    top: 92%;
+    left: 5%;
+    background-color: #a4a4a4;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+}
+
+/* @media (max-width: 768px) { */
+@media screen and (max-width: 768px) {
+    .resume-sheet{
+        height: 2750px;
+    }
+    .introduction-wrapper{
+        height: 15%;
+        top: 2%;
+    }
+    .introduction-wrapper img{
+        width: 85%;
+        height: 50%; 
+        margin: 1em auto auto -20px;
+    }
+    .header{
+        width: 65%;
+        left: 35%;
+    }
+    .about-me h1{
+        top: 30%;
+        left: 35%;
+        font-size: 35px;
+        font-family: "Montserrat", sans-serif;
+    }
+    /* DETAIL */
+    .detail-wrapper{
+        height: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+    .detail-1{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+    }
+    /* CONTACT ME */
+    .contact-me{
+        width: 100%;
+        height: 50%;
+    }
+    .contact-me h2{
+        left: 35%;
+    }
+    .contact-me .line-2{
+        width: 90%;
+        left: 5%;
+    }
+    .contact-me .add{
+        left: 31%;
+    }
+    .contact-me .tel{
+        left: 28%;
+    }
+    .contact-me .email{
+        left: 28%;
+    }
+    /* EDUCATION */
+    .education{
+        width: 100%;
+        height: 65%;
+        top: 80%;
+    }
+    .education h2{
+        top: 17%;
+        left: 35%;
+    }
+    .education .line-2{
+        width: 90%;
+        top: 20%;
+        left: 5%;
+    }
+    .education .h-school{
+        top: 22%;
+        left: 30%;
+    }
+    .education .h-name{
+        top: 24%; 
+        left: 30%;
+    }
+    .education .uni{
+        top: 28%;
+        left: 30%;
+    }
+    .education .u-name{
+        top: 30%;
+        left: 30%;
+    }
+    .detail-2{
+        width: 100%;
+        height: 60%;
+    }
+    /* EXPERIENCE */
+    .detail-2 h2{
+        top: 39%;
+        left: 35%;
+    }
+    .detail-2 .line-3{
+        width: 90%;
+        top: 42%;
+        left: 5%;
+    }
+    .experience-1{
+        top: 45%;
+        left: 28%;
+    }
+    .task-1{
+        top: 48%;
+        left: 30%;
+    }
+    .ability-1{
+        width: 70%;
+        top: 52%;
+        left: 30%;
+    }
+    .experience-2{
+        top: 62%;
+        left: 28%;
+    }
+    .task-2{
+        top: 65%;
+        left: 30%;
+    }
+    .ability-2{
+        width: 68%;
+        top: 69%;
+        left: 30%;
+    }
+    .experience-3{
+        top: 77%;
+        left: 28%;
+    }
+    .task-3{
+        top: 80%;
+        left:30%;
+    }
+    .ability-3{
+        width: 70%;
+        top: 84%;
+        left: 30%;
+    }
+    /* SKILLS */
+    .skills-wrapper{
+        height: 27%;
+        top: 70%;
+        left: 5%;
+        flex-direction: column;
+    }
+    .skills-wrapper h2{
+        top: .5em;
+        left: 40%;
+    }
+    .skills-wrapper .line-1{
+        top: 4em;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .skill-category h3 {
+        margin-bottom: 10px;
+        top: 0;
+    }
+    .skill {
+        margin-top: 1em;
+        margin-bottom: 10px;
+    }
+    /* FOOTER */
+    .footer{
+        height: 3em;
+        top: 97%;
+        background-color: #a4a4a4;
+    }
+    .footer p{
+        margin-top: .5em;
+    }
+}
+
+
+@media screen and (max-width: 480px)  {
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .resume-sheet {
+            height: fit-content;
+            
+            min-height: 3100px;
+            background-color: #8A9A9A;
+        }
+
+        html{
+            height: 100%;
+        }
+        head{
+            display: block !important;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            min-height: 3100px;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .introduction-wrapper{
+            width: 90%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            top: 30px;
+            margin-left: 0;
+        }
+        .image-placeholder img{
+            width: 80%;
+            height: 60%;
+        }
+        .header{
+            width: 40%;
+            height: 20px;
+            margin-left: 25%;
+            background-color: white;
+        }
+        .about-me{
+            width: 100%;
+            height: 300px;
+            background-color: white;
+            position: absolute;
+            top: 200px;
+            left: 0;
+        }
+        .about-me h1{
+            width: 100%;
+            font-family: "Montserrat", sans-serif;
+            position: absolute;
+            top: 10px;
+            left: 0;
+        }
+        .about-me p{
+            width: 100%;
+            top:100px;
+            left: 0;
+        }
+        .about-me a{
+            width: 80%;
+            height: 50px;
+            top: 140px;
+            left: 20%;
+            word-wrap: break-word;
+        }
+        .detail-wrapper{
+            height: 2000px;
+            top: 510px;
+            display: flex;
+            flex-direction: column;
+            overflow: visible !important;
+        }
+        .contact{
+            height: 300px;
+        }
+        .contact-me,
+        .education,
+        .detail-2 div{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-me h2,
+        .contact-me a,
+        .education h2,
+        .education p,
+        .education a,
+        .detail-2 div h2,
+        .detail-2 div p{
+            margin-left: -30px;    
+        }
+        .education{
+            height: 400px;
+        }
+        .detail-2{
+            height: 1200px;
+        }
+        .ability-1,
+        .ability-2,
+        .ability-3{
+            left: 20%;
+        }
+        .skills-wrapper{
+            display: block !important;
+            position: relative !important;
+            top: 2200px;
+            height: auto !important;
+            overflow: visible !important;
+        }
+        .container.parent {
+            position: block !important;
+            top: 0 !important;
+            margin-top: 0 !important;
+        }
+        .container {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            visibility: visible !important;
+            width: 100% !important;
+            height: auto;
+            position: relative;
+            top: 80px !important;
+            margin: 0 auto !important;
+            z-index: 9999;
+            background-color: white;
+
+        }
+        .skill-category{
+            width: 100%;
+            height: auto;
+        }
+        .skill {
+            width: 100%;
+        }
+        .footer{
+            position: absolute;
+            top: 3020px;
+        }
+    }

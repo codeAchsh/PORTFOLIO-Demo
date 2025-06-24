@@ -1,0 +1,44 @@
+# VS Code settings
+.vscode/
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# npmやパッケージ管理を使っている場合（今は不要かも）
+node_modules/
+package-lock.json
+yarn.lock
+
+# Sassやその他ビルド系（将来使うなら）
+*.scssc
+*.sass-cache
+*.log
+
+# 圧縮ファイル（万が一入れてしまった場合の保護）
+*.zip
+
+# 個人情報・環境設定
+.env
+*.env
+
+# MacのSpotlight検索やゴミファイル
+.Spotlight-V100
+.Trashes
+
+# Windowsのごみ情報
+ehthumbs.db
+Desktop.ini
+
+# 画像編集ソフトの一時ファイル
+*.psd
+*.xcf
+
+# その他一時的な編集ファイル
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Gitの設定ミス防止（リポジトリ内に残さないため）
+.gitignore~
